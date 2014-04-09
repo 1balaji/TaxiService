@@ -10,4 +10,9 @@
 
 @interface ViewController : UIViewController
 
+@property(nonatomic,weak)IBOutlet UIView *viewSegment1;
+@property(nonatomic,weak)IBOutlet UIView *viewSegment2;
+@property(nonatomic,weak)IBOutlet UIView *viewSegment3;
+@property(nonatomic,weak)IBOutlet UIView *viewSegment4;
+
 @end

@@ -21,6 +21,14 @@
 		618C8A6E18F566B400E6BA1B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 618C8A5018F566B300E6BA1B /* UIKit.framework */; };
 		618C8A7618F566B400E6BA1B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 618C8A7418F566B400E6BA1B /* InfoPlist.strings */; };
 		618C8A7818F566B400E6BA1B /* TaxiServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 618C8A7718F566B400E6BA1B /* TaxiServiceTests.m */; };
+		618C8A8E18F5857500E6BA1B /* light grey horizontal line.png in Resources */ = {isa = PBXBuildFile; fileRef = 618C8A8618F5857500E6BA1B /* light grey horizontal line.png */; };
+		618C8A8F18F5857500E6BA1B /* marker.png in Resources */ = {isa = PBXBuildFile; fileRef = 618C8A8718F5857500E6BA1B /* marker.png */; };
+		618C8A9018F5857500E6BA1B /* Order.png in Resources */ = {isa = PBXBuildFile; fileRef = 618C8A8818F5857500E6BA1B /* Order.png */; };
+		618C8A9118F5857500E6BA1B /* phone.png in Resources */ = {isa = PBXBuildFile; fileRef = 618C8A8918F5857500E6BA1B /* phone.png */; };
+		618C8A9218F5857500E6BA1B /* run icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 618C8A8A18F5857500E6BA1B /* run icon.png */; };
+		618C8A9318F5857500E6BA1B /* timer.png in Resources */ = {isa = PBXBuildFile; fileRef = 618C8A8B18F5857500E6BA1B /* timer.png */; };
+		618C8A9418F5857500E6BA1B /* vertical grey line.png in Resources */ = {isa = PBXBuildFile; fileRef = 618C8A8C18F5857500E6BA1B /* vertical grey line.png */; };
+		618C8A9518F5857500E6BA1B /* yellow stripe.png in Resources */ = {isa = PBXBuildFile; fileRef = 618C8A8D18F5857500E6BA1B /* yellow stripe.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +61,14 @@
 		618C8A7318F566B400E6BA1B /* TaxiServiceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TaxiServiceTests-Info.plist"; sourceTree = "<group>"; };
 		618C8A7518F566B400E6BA1B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		618C8A7718F566B400E6BA1B /* TaxiServiceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaxiServiceTests.m; sourceTree = "<group>"; };
+		618C8A8618F5857500E6BA1B /* light grey horizontal line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "light grey horizontal line.png"; sourceTree = "<group>"; };
+		618C8A8718F5857500E6BA1B /* marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marker.png; sourceTree = "<group>"; };
+		618C8A8818F5857500E6BA1B /* Order.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Order.png; sourceTree = "<group>"; };
+		618C8A8918F5857500E6BA1B /* phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = phone.png; sourceTree = "<group>"; };
+		618C8A8A18F5857500E6BA1B /* run icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "run icon.png"; sourceTree = "<group>"; };
+		618C8A8B18F5857500E6BA1B /* timer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timer.png; sourceTree = "<group>"; };
+		618C8A8C18F5857500E6BA1B /* vertical grey line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vertical grey line.png"; sourceTree = "<group>"; };
+		618C8A8D18F5857500E6BA1B /* yellow stripe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yellow stripe.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +128,10 @@
 		618C8A5218F566B300E6BA1B /* TaxiService */ = {
 			isa = PBXGroup;
 			children = (
-				618C8A5B18F566B300E6BA1B /* AppDelegate.h */,
-				618C8A5C18F566B300E6BA1B /* AppDelegate.m */,
-				618C8A5E18F566B300E6BA1B /* Main.storyboard */,
-				618C8A6118F566B300E6BA1B /* ViewController.h */,
-				618C8A6218F566B300E6BA1B /* ViewController.m */,
+				618C8A8318F5842200E6BA1B /* Home Screen */,
+				618C8A8118F5837E00E6BA1B /* App Delegate */,
+				618C8A8418F5855600E6BA1B /* Resources */,
+				618C8A8218F5839000E6BA1B /* Storyboard */,
 				618C8A6418F566B300E6BA1B /* Images.xcassets */,
 				618C8A5318F566B300E6BA1B /* Supporting Files */,
 			);
@@ -150,6 +165,55 @@
 				618C8A7418F566B400E6BA1B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		618C8A8118F5837E00E6BA1B /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				618C8A5B18F566B300E6BA1B /* AppDelegate.h */,
+				618C8A5C18F566B300E6BA1B /* AppDelegate.m */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		618C8A8218F5839000E6BA1B /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				618C8A5E18F566B300E6BA1B /* Main.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		618C8A8318F5842200E6BA1B /* Home Screen */ = {
+			isa = PBXGroup;
+			children = (
+				618C8A6118F566B300E6BA1B /* ViewController.h */,
+				618C8A6218F566B300E6BA1B /* ViewController.m */,
+			);
+			name = "Home Screen";
+			sourceTree = "<group>";
+		};
+		618C8A8418F5855600E6BA1B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				618C8A8518F5856600E6BA1B /* Home Screen */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		618C8A8518F5856600E6BA1B /* Home Screen */ = {
+			isa = PBXGroup;
+			children = (
+				618C8A8618F5857500E6BA1B /* light grey horizontal line.png */,
+				618C8A8718F5857500E6BA1B /* marker.png */,
+				618C8A8818F5857500E6BA1B /* Order.png */,
+				618C8A8918F5857500E6BA1B /* phone.png */,
+				618C8A8A18F5857500E6BA1B /* run icon.png */,
+				618C8A8B18F5857500E6BA1B /* timer.png */,
+				618C8A8C18F5857500E6BA1B /* vertical grey line.png */,
+				618C8A8D18F5857500E6BA1B /* yellow stripe.png */,
+			);
+			name = "Home Screen";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,9 +292,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				618C8A9518F5857500E6BA1B /* yellow stripe.png in Resources */,
 				618C8A6518F566B300E6BA1B /* Images.xcassets in Resources */,
+				618C8A8F18F5857500E6BA1B /* marker.png in Resources */,
+				618C8A9018F5857500E6BA1B /* Order.png in Resources */,
+				618C8A9118F5857500E6BA1B /* phone.png in Resources */,
+				618C8A9418F5857500E6BA1B /* vertical grey line.png in Resources */,
 				618C8A5718F566B300E6BA1B /* InfoPlist.strings in Resources */,
+				618C8A9218F5857500E6BA1B /* run icon.png in Resources */,
+				618C8A8E18F5857500E6BA1B /* light grey horizontal line.png in Resources */,
 				618C8A6018F566B300E6BA1B /* Main.storyboard in Resources */,
+				618C8A9318F5857500E6BA1B /* timer.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
